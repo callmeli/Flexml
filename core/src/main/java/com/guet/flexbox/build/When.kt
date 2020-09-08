@@ -38,7 +38,7 @@ object When : Definition() {
                         )["test"] == true) {
                     return item.children?.let {
                         buildTool.buildAll(
-                                children,
+                                item.children,
                                 engine,
                                 dataContext,
                                 eventDispatcher,
